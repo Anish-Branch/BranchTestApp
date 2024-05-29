@@ -41,7 +41,7 @@ class MainActivity : ComponentActivity() {
                 Log.i("BranchSDK_Tester", "Branch init complete!")
                 branchUniversalObject?.let {
                     Log.i("BranchSDK_Tester", "Title: ${it.title}")
-                    Log.i("BranchSDK_Tester", "Canonical Identifier: ${it.canonicalIdentifier}")
+                    Log.i("BranchSDK_Tester", "Canonical Url: ${it.canonicalUrl}")
                     Log.i("BranchSDK_Tester", "Metadata: ${it.contentMetadata.convertToJson()}")
                 }
                 linkProperties?.let {
